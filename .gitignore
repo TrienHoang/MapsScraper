@@ -1,0 +1,36 @@
+# Composer dependencies
+/vendor/
+composer.lock
+composer.json
+
+# Node dependencies (nếu có)
+node_modules/
+
+# Environment & config files
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.log
+
+# Cache / temp files
+/tmp/
+.cache/
+*.tmp
+
+# ChromeDriver & binary tools
+chromedriver.exe
+drivers/
+*.exe
+
+# Output / build folders
+/build/
+/dist/
